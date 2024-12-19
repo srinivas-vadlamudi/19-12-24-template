@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: aliceblue;
+}
+.item>a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav2>a{
+    color: gray;
+}
+.nav3>a,.nav4>a,.nav5>a{
+    color: black;
+}
+.nav6>a{
+    background-color: #3f4458;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+.ham{
+    display: none;
+}
+.nav3:hover>a,.nav4:hover>a,.nav5:hover>a{
+    color: gray;
+}
+ /* main-container */
+ .main-container{
+    background-image:url("https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/banner-bg.jpg");
+    min-height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+ }
+ .sub-container1{
+    margin-top:200px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+ }
+ /* lines */
+ .line1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+ }
+ .line2{
+    font-weight: 900;
+    font-size:40px;
+    color: white;
+    text-align: center;
+ }
+.sub-container2{
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.area>select,.price>select{
+    padding: 20px;
+    border: none;
+    border-right: 1px solid;
+    background-color: white;
+    font-size: 12px;
+}
+.location>input{
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-right: 1px solid;
+    font-size: 13px;
+}
+.search-bar{
+    background-color: #8d99af;
+    padding:25px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;  
+}
+.search-bar>i{
+    color: white;
+    font-weight: bold;
+}
+
+/* menucontainer */
+.sub-container3{
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    width: 60%;
+}
+.sub-container3>div{
+    background-color: white;
+    width:70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    color: gray;
+}
+.sub-container4{
+    margin-top: -30px;
+    display: flex;
+    justify-content:space-between;
+    width: 62%;
+}
+
