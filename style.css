@@ -40,7 +40,7 @@
  /* main-container */
  .main-container{
     background-image:url("https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/banner-bg.jpg");
-    min-height:700px;
+    min-height:750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,5 +123,6 @@
     display: flex;
     justify-content:space-between;
     width: 62%;
+    color: white;
 }
 

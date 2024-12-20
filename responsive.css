@@ -1,45 +1,12 @@
-@media screen and (width <=750px) {
-    .nav6{
-        display: none;
-    }
-    p{
-        display: none;
-    }
-    .line2{
-        font-weight: 900;
-        font-size: 30px;
-    }
-    .sub-container3{
-        gap: 20px;
-        width:75%;
-    }
-}
-@media screen and (width <=500px){
-    .sub-container3>div{
-        width:30px;
-        height: 40px;
-        color: black;
-        padding: 20px;
-    }
-    .sub-container3>div>i{
-        font-size: 30px;
-    }
-}
+
 @media screen and (width <=1000px) {
    .sub-container2{
     flex-direction: column;
     gap: 12px;
-    padding: 10px;
-    
+    padding: 20px;
    }
-   .area>select,.price>select{
+   .area>select,.price>select,.location>input{
     border-right:none;
-    border: 1px solid gray;
-    border-radius: 8px;
-    width: 100%;
-   }
-   .location>input{
-    border-right: none;
     border: 1px solid gray;
     border-radius: 8px;
     width: 100%;
@@ -55,18 +22,37 @@
     width: 90%;
    }
 }
-
 @media screen and (width <=750px) {
+    .nav6,p,.nav2,.nav3,.nav4,.nav5{
+        display: none;
+    }
+    .line2{
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .sub-container3{
+        gap: 20px;
+        width:75%;
+    }
     .ham{
         display:block;
         font-size: 30px;
         cursor: pointer;
-    }
-    .nav2,.nav3,.nav4,.nav5{
-        display: none;
     }
     .header{
         justify-content:space-around;
         padding: 10px;
     }
 }
+@media screen and (width <=600px){
+    .sub-container3>div{
+        width:30px;
+        height: 40px;
+        color: black;
+        padding: 20px;
+    }
+    .sub-container3>div>i{
+        font-size: 30px;
+    }
+}
+
